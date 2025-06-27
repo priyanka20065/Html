@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" >
+        <!-- for and id should be always same
+        action se redirst krta h ki form submit krne ke baad kha jn ah
+  if we have given method as "get" then the data will be sent in the URL and if we have given name to every input field then the data will be sent in the URL as key-value pairs.like this:
+        ?name1=value1&name2=value2&name3=value3   and if we have provided method as "post" then the data will be sent in the body of the request and it will not be visible in the URL.
+        method is used to specify the method of sending data to the server, it can be "get" or "post"  
+
+        - Tags used in HTML forms ( <form> , <input> , <label> , etc. ) 
+            - Input types ( textfield , button , radio , checkbox , file , image-button , password , date-picker  )
+            - Form elements ( input , label , select , option , button , textarea , fieldset , legend )
+            - NOTE :  i) By default type of <input> tag is ''text"
+                            ii) (for = " ") of <label> tag should be equal to (id = " ") of <input> tag.
+                           iii)  Placeholder (It gives user a hint that what should be written here , i.e. FADED 
+           
+
+                            Answer : yes we can select multiple options in an drop down list by using "multiple" attribute of the <select> tag. -->
+
+        <!-- value is used to give default value to the input field
+        placeholder is used to give hint to the user that what should be written in the input field -->
+
+        <label for="email">Enter Email ID:</label>
+        <input type="text" id="email" placeholder="enter your email here:">
+
+        <br/>
+        <br/>
+
+        <label for="password">Enter Password</label>
+        <input type="text" id="password">
+
+        <br/>
+        <br/>   
+
+        <input type="submit" value="Submit">
+        
+
+
+
+        <fieldset>
+            <legend>HTML Form Dummy</legend>
+            <label for="datepicker">Choose Date:</label>
+        <input type="date" id="datepicker">
+
+        <br> 
+        <br>
+    <!-- dropdown -->
+        <label for="selector1">Choose your Dish:</label>
+        <select name="dishes" id="selector1">
+            <option value="maggi">Maggi</option>
+            <option value="kurkure">Kurkure</option>
+            <option value="chips">Chips</option>
+        </select>
+
+
+        <br>
+        <br>
+
+        <button>Main Hu Button</button>
+
+        <br>
+        <br>
+
+        <textarea name="textArea1" id="textArea1" cols="15" rows="2" placeholder="enter text here..."></textarea>
+
+        
+
+        </fieldset>
+          
+
+        <label for="textfield1">TextField:</label>
+        <input type="text" name="textfield1" id="textfield1">
+        <br/>
+        <br/>
+
+        <label for="button1">Button:</label>
+        <input type="submit" name="button1" id="button1" value="Subscribe">
+        <br/>
+        <br/>
+
+        <label for="radio1">Male:</label>
+        <input type="radio" name="radio1" id="radio1" >
+
+ <!--name har option main same dena h radio ke isse app ik hi element ko sen dkro -->
+        <label for="radio2">Female:</label>
+        <input type="radio" name="radio1" id="radio2" >
+
+        
+        <label for="radio3">Prefer not to say:</label>
+        <input type="radio" name="radio1" id="radio3" >
+        <br/>
+        <br/>
+
+
+        <label for="checkbox1">English:</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1" >
+
+
+        <label for="checkbox2">Hindi:</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2" >
+        <br/>
+        <br/>
+
+
+        <label for="fileselect1">Upload:</label>
+        <input type="file" name="fileselect1" id="fileselect1">
+        <br/>
+        <br/>
+
+        <input type="image" name="imageButton1" id="imageButton1" alt="clich here" src="button1.png" 
+        height="20px" width="20px">
+        <br>
+        <br>
+
+        <label for="password1">Enter Password</label>
+        <input type="password" name="password1" id="password1">
+        <br>
+        <br>
+
+        <label for="datepicker1">Enter Date</label>
+        <input type="date" name="datepicker1" id="datepicker`" >
+       <input type="color" name="" id="">  
+    </form>
+</body>
+</html>
